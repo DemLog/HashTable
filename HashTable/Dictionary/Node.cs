@@ -1,11 +1,13 @@
-﻿namespace HashTable.Dictionary;
-
-public class Node<T>
+﻿namespace HashTable.Dictionary
 {
-    public Node(T data)
+    public class Node<T>
     {
-        Data = data;
+        public Node(T data)
+        {
+            Data = data;
+        }
+
+        public T Data { get; set; }
+        public Node<T> Next { get; set; }
     }
-    public T Data { get; set; }
-    public Node<T> Next { get; set; }
 }

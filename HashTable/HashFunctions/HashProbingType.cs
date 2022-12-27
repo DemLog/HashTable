@@ -1,8 +1,9 @@
-﻿namespace HashTable.HashFunctions;
-
-public enum HashProbingType
+﻿namespace HashTable.HashFunctions
 {
-    Linear,
-    Quadratic,
-    Double
+    public enum HashProbingType
+    {
+        Linear,
+        Quadratic,
+        Double
+    }
 }

@@ -1,12 +1,12 @@
-﻿namespace HashTable.HashFunctions;
-
-public enum HashFuncType
+﻿namespace HashTable.HashFunctions
 {
-    Div,
-    Multi,
-    SHA256,
-    HMACMD5,
-    XXHash32,
-    MurmurHash
+    public enum HashFuncType
+    {
+        Div,
+        Multi,
+        SHA256,
+        HMACMD5,
+        XXHash32,
+        MurmurHash
+    }
 }
-
