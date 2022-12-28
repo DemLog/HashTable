@@ -8,7 +8,7 @@ namespace HashTable.Tester
     {
         public static void Testing(HashProbingType hashProbingType, params HashFuncType[] hashFuncTypes)
         {
-            const int SIZE_GENERATION = 10000;
+        const int SIZE_GENERATION = 2500;
 
             Console.WriteLine("\nНачало тестирования хеш-таблицы (открытая адресация)");
             Console.WriteLine($"Тестирование хеш функций класса: \"{GetNameProbingtype(hashProbingType)}\"");
